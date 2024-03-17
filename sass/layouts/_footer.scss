@@ -1,6 +1,6 @@
-
-
 footer {
+
+  margin-top: 50px;
   .footer_top{
     display: flex;
     justify-content: space-between;
@@ -8,13 +8,12 @@ footer {
       display: flex;
       align-items: center;
       gap: 8px;
-      p{
+      font-size: 20px;
         color: gray;
         font-family: Arial, Helvetica, sans-serif;
-      }
       a{
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 12px;
+        font-size: 20px;
         color:black;
       }
       a:hover{
@@ -25,6 +24,13 @@ footer {
       display: flex;
       align-items: center;
       gap: 8px;
+      font-size: 20px;
+      .p1{
+        color:rgba(106, 152, 60, 1);
+        background-color:rgba(106, 152, 60, 0.444);
+        padding: 5px 16px;
+        border-radius:20px; 
+      }
       p{
         color: gray;
         font-family: Arial, Helvetica, sans-serif;
@@ -40,6 +46,7 @@ button{
   border:none;
   background-color:rgba(106, 152, 60, 1);
   font-weight: bold;
+  color: #fff;;
   transition: all 1s ease;
   cursor: pointer;
 }
@@ -57,10 +64,48 @@ background-color:rgba(106, 152, 60, 0.432);
   }
   a{
     color:rgba(106, 152, 60, 1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 0.5s ease;
+  }
+  a:hover{
+    color:rgba(106, 152, 60, 0.733);
   }
 }
 .footer{
-  margin-top: 50px;
+  margin-top: 100px;
   display: flex;
   justify-content: space-between;
+}
+.footer_bottom{
+  margin-top: 50px;
+  .cart_text{
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .card_text{
+    margin-top: 20px;
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 26px;
+    a{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      background-color:rgba(128, 128, 128, 0.432);
+      padding: 5px 10px;
+      border-radius:20px;
+      color:black;
+      transition: all .5s ease;
+    }
+    a:hover{
+      color:rgb(106, 152, 60);
+    }
+  }
+}
+.text_bottom{
+  margin-top: 50px;
+  margin-bottom: 40px;
+  p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+  }
 }
