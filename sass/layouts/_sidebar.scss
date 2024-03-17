@@ -1,3 +1,112 @@
-.sidebar {
-  ///
+.sidebar{
+  display: flex;
+  flex-direction: column;
+}
+
+.card1{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 48px;
+}
+
+.title{
+  margin-bottom: 18.5px;
+}
+
+.name{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 130px;
+  margin-bottom: 14px;
+  cursor: pointer;
+}
+
+.green{
+  display: inline-block;
+  padding: 0 8px;
+  color: #6a983c;
+  background: #F4F8EC;
+  border-radius: 12px;
+}
+
+.card2{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 48px;
+  cursor: pointer;
+}
+
+.check{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 17px;
+}
+
+.card3{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 48px;
+}
+
+.card4{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 48px;
+}
+
+.range{
+  width: 246px;
+}
+
+.min-max{
+  display: flex;
+  margin-top: 29px;
+  margin-bottom: 31px;
+  flex-direction: row;
+  align-items: center;
+  gap: 33px;
+} 
+
+.min{
+  display: flex;
+  flex-direction: column;
+}
+
+.price{
+  width: 109px;
+  padding: 11px 16px 12px 21px;
+  background: #f9f9f9;
+  border: 1px solid #d1d1d1;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+
+.btn{
+  display: flex;
+  gap: 34px;
+}
+
+.btn1{
+  width:78px;
+height: 48px;
+padding: 12.5px 16px;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #fff;
+  background: #6a983c;
+  border: 2px solid #46760a;
+}
+
+.btn2{
+  width:67px;
+  height:35px;
+  padding: 6px 12px;
+margin-left: 34px;
+text-decoration: none;
+color: #a9a9a9;
 }
