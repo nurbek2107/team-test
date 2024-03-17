@@ -1,0 +1,201 @@
+.card-wrapper{
+  display:flex;
+  flex-direction: column;
+  width: Fixed(870.74px);
+  height: Hug(1,528px);
+  gap: 32px;
+}
+.card {
+  display: flex;
+  width: 869px;
+  height: 280px;
+  border-radius: 12px;
+  border: 1px solid #d1d1d1;
+  background-color: #fff;
+  img{
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+  }
+}
+.about-product {
+  display: flex;
+  flex-direction: column;
+  width: Hug(269px);
+  height: Hug(212px);
+  gap: 25px;
+  margin-top: 32px;
+  margin-left: 32px;
+}
+.product-title {
+  display: flex;
+  flex-direction: column;
+  width: Hug(269px);
+  height: Hug(75px);
+  gap: 8px;
+  h3 {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #151515;
+  }
+  p {
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #575757;
+  }
+  .stars-wrapper {
+    display: flex;
+    width: 108px;
+    height: 20px;
+    gap: 2px;
+    margin-top: 8px;
+    .stars {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
+.product-discription {
+  display: flex;
+  flex-direction: column;
+  width: Hug(237px);
+  height: Hug(112px);
+  gap: 12px;
+  margin-right: 96px;
+}
+.product-discription__data-lines {
+  width: 237px;
+  height: 19px;
+  display: flex;
+  p {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #a9a9a9;
+  }
+  .first-p1 {
+    margin-right: 32px;
+  }
+  .first-p2 {
+    margin-right: 72px;
+  }
+  .first-p3 {
+    margin-right: 53px;
+  }
+  .first-p4 {
+    margin-right: 70px;
+  }
+  span {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #6a983c;
+  }
+}
+.card-cost {
+  width: 172px;
+  height: 216px;
+  margin-top: 32px;
+  .card-cost__price {
+    width: 91px;
+    height: 45px;
+    h3 {
+      font-family: Poppins;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 27px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #151515;
+    }
+    p {
+      font-family: open sans;
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 18px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #a9a9a9;
+      text-decoration: line-through;
+    }
+  }
+}
+.card-cost__delivery {
+  width: 92px;
+  height: 34px;
+  margin-top: 16px;
+  margin-bottom: 26px;
+  span {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #a9a9a9;
+  }
+  p {
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #a9a9a9;
+  }
+}
+.card_cost__buy-like {
+  display: flex;
+  flex-direction: column;
+  width: Hug(164px);
+  height: Hug(95px);
+  gap: 8px;
+  a {
+    display: flex;
+    text-decoration: none;
+    width: Hug(164px);
+    height: Hug(47px);
+    padding: 12px 16px 12px 16px;
+    gap: 6px;
+    border-radius: 12px;
+    font-family: open sans;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    background-color: #6a983c;
+    border: 2px solid #46760a;
+  }
+  button {
+    display: flex;
+    align-items: center;
+    width: Hug(164px);
+    height: Fixed(36px);
+    padding: 6px 12px 6px 12px;
+    gap: 8px;
+    border-radius: 12px;
+    background-color: #f5f5f5;
+    color: #151515;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}
