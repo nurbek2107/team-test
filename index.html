@@ -6,153 +6,462 @@
     <title>Project [Title]</title>
     <link rel="stylesheet" href="./css/style.min.css" />
   </head>
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project [Title]</title>
-  <link rel="stylesheet" href="./css/style.min.css">
-</head>
-
-<body>
-    <footer>
-
-      <div class="container">
-        <div class="footer_top">
-          <div class="footer_top_left">
-            <p>Page:</p>
-            <a href="#">1</a>
-            <a href="#">2</a>
-            <a href="#">3</a>
-            <a href="#">4</a>
-          </div>
-          <div class="footer_top_center">
-            <button>Show more products</button>
-          </div>
-          <div class="footer_top_right">
-            <p>336</p>
-            <p>Products</p>
-          </div>
-        </div>
-        <div class="footer">
-        <div class="card1">
-          <p>Get in touch</p>
-          <a href="#">About Us</a>
-          <a href="#">Careers</a>
-          <a href="#">Press Releases</a>
-          <a href="#">Blog</a>
-        </div>
-        <div class="card1">
-          <p>Get in touch</p>
-          <a href="#">About Us</a>
-          <a href="#">Careers</a>
-          <a href="#">Press Releases</a>
-          <a href="#">Blog</a>
-        </div>
-        <div class="card1">
-          <p>Get in touch</p>
-          <a href="#">About Us</a>
-          <a href="#">Careers</a>
-          <a href="#">Press Releases</a>
-          <a href="#">Blog</a>
-        </div>
-        <div class="card1">
-          <p>Get in touch</p>
-          <a href="#">About Us</a>
-          <a href="#">Careers</a>
-          <a href="#">Press Releases</a>
-          <a href="#">Blog</a>
-        </div>
-      </div>
-      </div>      
-    </footer>
-</body>
-
-=======
   <body>
-    <div class="left__menu">
-      <h1>Categories</h1>
-      <div class="first__list">
-        <div>
-          <h1>Category name</h1>
-          <button>320</button>
+    <div class="card-wrapper">
+      <div class="card">
+        <img src="https://picsum.photos/268/280" alt="product image" />
+        <div class="about-product">
+          <div class="product-title">
+            <h3>Product title</h3>
+            <p>Space for a small product description</p>
+            <div class="stars-wrapper">
+              <img
+                class="stars"
+                src="./static/images/svg/star_black.svg"
+                alt="black star"
+              />
+              <img
+                class="stars"
+                src="./static/images/svg/star_black.svg"
+                alt="black star"
+              />
+              <img
+                class="stars"
+                src="./static/images/svg/star_black.svg"
+                alt="black star"
+              />
+              <img
+                class="stars"
+                src="./static/images/svg/star_black.svg"
+                alt="black star"
+              />
+              <img
+                class="stars"
+                src="./static/images/svg/star_white.svg"
+                alt="white star"
+              />
+            </div>
+          </div>
+          <div class="product-discription">
+            <div class="product-discription__data-lines">
+              <p class="first-p1">Fresheness</p>
+              <p class="second-p"><span>New</span>(Extra fersh)</p>
+            </div>
+            <div class="product-discription__data-lines">
+              <p class="first-p2">Farm</p>
+              <p class="second-p">Grocery Tarm Fields</p>
+            </div>
+            <div class="product-discription__data-lines">
+              <p class="first-p3">Delivery</p>
+              <p class="second-p">Europe</p>
+            </div>
+            <div class="product-discription__data-lines">
+              <p class="first-p4">Stock</p>
+              <span>320 pcs</span>
+            </div>
+          </div>
         </div>
-        <div>
-          <h1>Category name</h1>
-          <button>112</button>
-        </div>
-        <div>
-          <h1>Category name</h1>
-          <button>32</button>
-        </div>
-        <div>
-          <h1>Category name</h1>
-          <button>48</button>
-        </div>
-      </div>
-    </div>
-    <div>
-      <h1>Brands</h1>
-      <div>
-        <input type="checkbox" />
-        <h1>Filtre by brand item</h1>
-      </div>
-      <div>
-        <input type="checkbox" />
-        <h1>Filtre by brand item</h1>
-      </div>
-      <div>
-        <input type="checkbox" />
-        <h1>Filtre by brand item</h1>
-      </div>
-      <div>
-        <input type="checkbox" />
-        <h1>Filtre by brand item</h1>
-      </div>
-      <div>
-        <input type="checkbox" />
-        <h1>Filtre by brand item</h1>
-      </div>
-    </div>
-    <div>
-      <h1>Rating</h1>
-      <div>
-        <input type="checkbox" />
-        <img src="" alt="" />
-      </div>
-      <div>
-        <input type="checkbox" />
-        <img src="" alt="" />
-      </div>
-      <div>
-        <input type="checkbox" />
-        <img src="" alt="" />
-      </div>
-      <div>
-        <input type="checkbox" />
-        <img src="" alt="" />
-      </div>
-      <div>
-        <input type="checkbox" />
-        <img src="" alt="" />
-      </div>
-    </div>
-    <div>
-      <h1>Price</h1>
-      <input type="range" />
-      <div>
-        <div>
-          <h1>Min</h1>
-          <button>0</button>
-        </div>
-        <div>
-          <h1>Max</h1>
-          <button>000</button>
+        <div class="card-cost">
+          <div class="card-cost__price">
+            <h3>36.99 USD</h3>
+            <p>48.56</p>
+          </div>
+          <div class="card-cost__delivery">
+            <span>Free Shipping</span>
+            <p>Delivery in 1 day</p>
+          </div>
+          <div class="card_cost__buy-like">
+            <a href="..."
+              >Product Detail
+              <img
+                src="./static/images/svg/ic-chevron-right.svg"
+                alt="row right icon"
+            /></a>
+            <button>
+              <img src="./static/images/svg/Layer.svg" alt="like icon" />Add to
+              wish list
+            </button>
+          </div>
         </div>
       </div>
-      <div>
-        <button>Apply</button>
-        <h1>Reset</h1>
+      <div class="card">
+        <img src="https://picsum.photos/268/280" alt="product image" />
+        <div class="about-product">
+          <div class="product-title">
+            <h3>Product title</h3>
+            <p>Space for a small product description</p>
+            <div class="stars-wrapper">
+              <img
+                class="stars"
+                src="./static/images/svg/star_black.svg"
+                alt="black star"
+              />
+              <img
+                class="stars"
+                src="./static/images/svg/star_black.svg"
+                alt="black star"
+              />
+              <img
+                class="stars"
+                src="./static/images/svg/star_black.svg"
+                alt="black star"
+              />
+              <img
+                class="stars"
+                src="./static/images/svg/star_black.svg"
+                alt="black star"
+              />
+              <img
+                class="stars"
+                src="./static/images/svg/star_white.svg"
+                alt="white star"
+              />
+            </div>
+          </div>
+          <div class="product-discription">
+            <div class="product-discription__data-lines">
+              <p class="first-p1">Fresheness</p>
+              <p class="second-p"><span>New</span>(Extra fersh)</p>
+            </div>
+            <div class="product-discription__data-lines">
+              <p class="first-p2">Farm</p>
+              <p class="second-p">Grocery Tarm Fields</p>
+            </div>
+            <div class="product-discription__data-lines">
+              <p class="first-p3">Delivery</p>
+              <p class="second-p">Europe</p>
+            </div>
+            <div class="product-discription__data-lines">
+              <p class="first-p4">Stock</p>
+              <span>320 pcs</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-cost">
+          <div class="card-cost__price">
+            <h3>36.99 USD</h3>
+            <p>48.56</p>
+          </div>
+          <div class="card-cost__delivery">
+            <span>Free Shipping</span>
+            <p>Delivery in 1 day</p>
+          </div>
+          <div class="card_cost__buy-like">
+            <a href="..."
+              >Product Detail
+              <img
+                src="./static/images/svg/ic-chevron-right.svg"
+                alt="row right icon"
+            /></a>
+            <button>
+              <img src="./static/images/svg/Layer.svg" alt="like icon" />Add to
+              wish list
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://picsum.photos/268/280" alt="product image" />
+        <div class="about-product">
+          <div class="product-title">
+            <h3>Product title</h3>
+            <p>Space for a small product description</p>
+            <div class="stars-wrapper">
+              <img
+                class="stars"
+                src="./static/images/svg/star_black.svg"
+                alt="black star"
+              />
+              <img
+                class="stars"
+                src="./static/images/svg/star_black.svg"
+                alt="black star"
+              />
+              <img
+                class="stars"
+                src="./static/images/svg/star_black.svg"
+                alt="black star"
+              />
+              <img
+                class="stars"
+                src="./static/images/svg/star_black.svg"
+                alt="black star"
+              />
+              <img
+                class="stars"
+                src="./static/images/svg/star_white.svg"
+                alt="white star"
+              />
+            </div>
+          </div>
+          <div class="product-discription">
+            <div class="product-discription__data-lines">
+              <p class="first-p1">Fresheness</p>
+              <p class="second-p"><span>New</span>(Extra fersh)</p>
+            </div>
+            <div class="product-discription__data-lines">
+              <p class="first-p2">Farm</p>
+              <p class="second-p">Grocery Tarm Fields</p>
+            </div>
+            <div class="product-discription__data-lines">
+              <p class="first-p3">Delivery</p>
+              <p class="second-p">Europe</p>
+            </div>
+            <div class="product-discription__data-lines">
+              <p class="first-p4">Stock</p>
+              <span>320 pcs</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-cost">
+          <div class="card-cost__price">
+            <h3>36.99 USD</h3>
+            <p>48.56</p>
+          </div>
+          <div class="card-cost__delivery">
+            <span>Free Shipping</span>
+            <p>Delivery in 1 day</p>
+          </div>
+          <div class="card_cost__buy-like">
+            <a href="..."
+              >Product Detail
+              <img
+                src="./static/images/svg/ic-chevron-right.svg"
+                alt="row right icon"
+            /></a>
+            <button>
+              <img src="./static/images/svg/Layer.svg" alt="like icon" />Add to
+              wish list
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://picsum.photos/268/280" alt="product image" />
+        <div class="about-product">
+          <div class="product-title">
+            <h3>Product title</h3>
+            <p>Space for a small product description</p>
+            <div class="stars-wrapper">
+              <img
+                class="stars"
+                src="./static/images/svg/star_black.svg"
+                alt="black star"
+              />
+              <img
+                class="stars"
+                src="./static/images/svg/star_black.svg"
+                alt="black star"
+              />
+              <img
+                class="stars"
+                src="./static/images/svg/star_black.svg"
+                alt="black star"
+              />
+              <img
+                class="stars"
+                src="./static/images/svg/star_black.svg"
+                alt="black star"
+              />
+              <img
+                class="stars"
+                src="./static/images/svg/star_white.svg"
+                alt="white star"
+              />
+            </div>
+          </div>
+          <div class="product-discription">
+            <div class="product-discription__data-lines">
+              <p class="first-p1">Fresheness</p>
+              <p class="second-p"><span>New</span>(Extra fersh)</p>
+            </div>
+            <div class="product-discription__data-lines">
+              <p class="first-p2">Farm</p>
+              <p class="second-p">Grocery Tarm Fields</p>
+            </div>
+            <div class="product-discription__data-lines">
+              <p class="first-p3">Delivery</p>
+              <p class="second-p">Europe</p>
+            </div>
+            <div class="product-discription__data-lines">
+              <p class="first-p4">Stock</p>
+              <span>320 pcs</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-cost">
+          <div class="card-cost__price">
+            <h3>36.99 USD</h3>
+            <p>48.56</p>
+          </div>
+          <div class="card-cost__delivery">
+            <span>Free Shipping</span>
+            <p>Delivery in 1 day</p>
+          </div>
+          <div class="card_cost__buy-like">
+            <a href="..."
+              >Product Detail
+              <img
+                src="./static/images/svg/ic-chevron-right.svg"
+                alt="row right icon"
+            /></a>
+            <button>
+              <img src="./static/images/svg/Layer.svg" alt="like icon" />Add to
+              wish list
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://picsum.photos/268/280" alt="product image" />
+        <div class="about-product">
+          <div class="product-title">
+            <h3>Product title</h3>
+            <p>Space for a small product description</p>
+            <div class="stars-wrapper">
+              <img
+                class="stars"
+                src="./static/images/svg/star_black.svg"
+                alt="black star"
+              />
+              <img
+                class="stars"
+                src="./static/images/svg/star_black.svg"
+                alt="black star"
+              />
+              <img
+                class="stars"
+                src="./static/images/svg/star_black.svg"
+                alt="black star"
+              />
+              <img
+                class="stars"
+                src="./static/images/svg/star_black.svg"
+                alt="black star"
+              />
+              <img
+                class="stars"
+                src="./static/images/svg/star_white.svg"
+                alt="white star"
+              />
+            </div>
+          </div>
+          <div class="product-discription">
+            <div class="product-discription__data-lines">
+              <p class="first-p1">Fresheness</p>
+              <p class="second-p"><span>New</span>(Extra fersh)</p>
+            </div>
+            <div class="product-discription__data-lines">
+              <p class="first-p2">Farm</p>
+              <p class="second-p">Grocery Tarm Fields</p>
+            </div>
+            <div class="product-discription__data-lines">
+              <p class="first-p3">Delivery</p>
+              <p class="second-p">Europe</p>
+            </div>
+            <div class="product-discription__data-lines">
+              <p class="first-p4">Stock</p>
+              <span>320 pcs</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-cost">
+          <div class="card-cost__price">
+            <h3>36.99 USD</h3>
+            <p>48.56</p>
+          </div>
+          <div class="card-cost__delivery">
+            <span>Free Shipping</span>
+            <p>Delivery in 1 day</p>
+          </div>
+          <div class="card_cost__buy-like">
+            <a href="..."
+              >Product Detail
+              <img
+                src="./static/images/svg/ic-chevron-right.svg"
+                alt="row right icon"
+            /></a>
+            <button>
+              <img src="./static/images/svg/Layer.svg" alt="like icon" />Add to
+              wish list
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://picsum.photos/268/280" alt="product image" />
+        <div class="about-product">
+          <div class="product-title">
+            <h3>Product title</h3>
+            <p>Space for a small product description</p>
+            <div class="stars-wrapper">
+              <img
+                class="stars"
+                src="./static/images/svg/star_black.svg"
+                alt="black star"
+              />
+              <img
+                class="stars"
+                src="./static/images/svg/star_black.svg"
+                alt="black star"
+              />
+              <img
+                class="stars"
+                src="./static/images/svg/star_black.svg"
+                alt="black star"
+              />
+              <img
+                class="stars"
+                src="./static/images/svg/star_black.svg"
+                alt="black star"
+              />
+              <img
+                class="stars"
+                src="./static/images/svg/star_white.svg"
+                alt="white star"
+              />
+            </div>
+          </div>
+          <div class="product-discription">
+            <div class="product-discription__data-lines">
+              <p class="first-p1">Fresheness</p>
+              <p class="second-p"><span>New</span>(Extra fersh)</p>
+            </div>
+            <div class="product-discription__data-lines">
+              <p class="first-p2">Farm</p>
+              <p class="second-p">Grocery Tarm Fields</p>
+            </div>
+            <div class="product-discription__data-lines">
+              <p class="first-p3">Delivery</p>
+              <p class="second-p">Europe</p>
+            </div>
+            <div class="product-discription__data-lines">
+              <p class="first-p4">Stock</p>
+              <span>320 pcs</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-cost">
+          <div class="card-cost__price">
+            <h3>36.99 USD</h3>
+            <p>48.56</p>
+          </div>
+          <div class="card-cost__delivery">
+            <span>Free Shipping</span>
+            <p>Delivery in 1 day</p>
+          </div>
+          <div class="card_cost__buy-like">
+            <a href="..."
+              >Product Detail
+              <img
+                src="./static/images/svg/ic-chevron-right.svg"
+                alt="row right icon"
+            /></a>
+            <button>
+              <img src="./static/images/svg/Layer.svg" alt="like icon" />Add to wish list
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   </body>
