@@ -34,6 +34,11 @@ body {
   padding: 64px 45px;
 }
 
+.cards_main {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v5.0.2 | 20191019
    License: none (public domain)
@@ -415,7 +420,7 @@ table {
   display: inline-block;
   padding: 0 8px;
   color: #6a983c;
-  background: #F4F8EC;
+  background: #f4f8ec;
   border-radius: 12px;
 }
 
