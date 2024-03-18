@@ -1,19 +1,19 @@
-.sidebar{
+.sidebar {
   display: flex;
   flex-direction: column;
 }
 
-.card1{
+.card1 {
   display: flex;
   flex-direction: column;
   margin-bottom: 48px;
 }
 
-.title{
+.title {
   margin-bottom: 18.5px;
 }
 
-.name{
+.name {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -22,22 +22,22 @@
   cursor: pointer;
 }
 
-.green{
+.green {
   display: inline-block;
   padding: 0 8px;
   color: #6a983c;
-  background: #F4F8EC;
+  background: #f4f8ec;
   border-radius: 12px;
 }
 
-.card2{
+.card2 {
   display: flex;
   flex-direction: column;
   margin-bottom: 48px;
   cursor: pointer;
 }
 
-.check{
+.check {
   display: flex;
   gap: 10px;
   align-items: center;
@@ -45,37 +45,37 @@
   margin-bottom: 17px;
 }
 
-.card3{
+.card3 {
   display: flex;
   flex-direction: column;
   margin-bottom: 48px;
 }
 
-.card4{
+.card4 {
   display: flex;
   flex-direction: column;
   margin-bottom: 48px;
 }
 
-.range{
+.range {
   width: 246px;
 }
 
-.min-max{
+.min-max {
   display: flex;
   margin-top: 29px;
   margin-bottom: 31px;
   flex-direction: row;
   align-items: center;
   gap: 33px;
-} 
+}
 
-.min{
+.min {
   display: flex;
   flex-direction: column;
 }
 
-.price{
+.price {
   width: 109px;
   padding: 11px 16px 12px 21px;
   background: #f9f9f9;
@@ -84,15 +84,15 @@
   border-radius: 12px;
 }
 
-.btn{
+.btn {
   display: flex;
   gap: 34px;
 }
 
-.btn1{
-  width:78px;
-height: 48px;
-padding: 12.5px 16px;
+.btn1 {
+  width: 78px;
+  height: 48px;
+  padding: 12.5px 16px;
   display: inline-block;
   box-sizing: border-box;
   border-radius: 12px;
@@ -102,11 +102,11 @@ padding: 12.5px 16px;
   border: 2px solid #46760a;
 }
 
-.btn2{
-  width:67px;
-  height:35px;
+.btn2 {
+  width: 67px;
+  height: 35px;
   padding: 6px 12px;
-margin-left: 34px;
-text-decoration: none;
-color: #a9a9a9;
+  margin-left: 34px;
+  text-decoration: none;
+  color: #a9a9a9;
 }
