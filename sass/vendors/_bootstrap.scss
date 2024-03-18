@@ -1,7 +1,9 @@
 .block__container{
   margin-top: 100px;
 }
-
+.container5{
+  position: relative;
+}
 .block__container1{
 
   display: flex;
@@ -33,7 +35,7 @@
 
 .top__left {
   position: absolute;
-  top: 1980px;
+  top: 20px;
   left: 24px;
   font-size: 18px;
   background-color:rgba(244, 248, 236, 1);
@@ -43,7 +45,7 @@
 
 .botton__1{
   position: absolute;
-  top: 2216px;
+  top: 250px;
   left: 24px;
   width: 324px;
 }
