@@ -1,3 +1,124 @@
-.bootstrap {
-  ///
+.block__container{
+  margin-top: 100px;
+}
+
+.block__container1{
+
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  margin: 0px 20px;
+}
+.block__right_top{
+  display: flex;
+  gap: 50px;
+  align-items: start;
+  width: 369px;
+  height: 96px;
+  margin-bottom:30px;
+}
+.prof1{
+  display: flex;
+  align-items:center;
+  gap: 20px;
+}
+
+
+.block56{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 20px;
+}
+
+
+.top__left {
+  position: absolute;
+  top: 1980px;
+  left: 24px;
+  font-size: 18px;
+  background-color:rgba(244, 248, 236, 1);
+  padding:0px 8px;
+  border-radius: 12px;
+}
+
+.botton__1{
+  position: absolute;
+  top: 2216px;
+  left: 24px;
+  width: 324px;
+}
+.botton__1 .p2{
+  position: absolute;
+  font-size: 22px;
+  color:rgba(255, 255, 255, 1);
+}
+.profil{
+  display: flex;
+  align-items:center;
+  gap: 20px;
+  position: absolute;
+  top: 74px;
+}
+.profil .img{
+  display: flex;
+  align-items: center;
+  
+  gap: 10px;
+}
+.profil p{
+  font-size: 12px;
+  color:rgba(255, 255, 255, 1);
+}
+.block__center{
+width: 269px;
+}
+.prof{
+  display: flex;
+  align-items:center;
+  gap: 25px;
+}
+.pp{
+  color: rgba(106, 152, 60, 1);
+  font-size: 12px;
+  border-radius:12px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgba(244, 248, 236, 1);
+  margin:20px 0px 0px 0px;
+  padding-left: 12px;
+  margin-right: 195px;
+}
+.pp1{
+  font-size: 18px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  word-spacing: 5px;
+  margin: 10px 0px;
+}
+.pp2{
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  word-spacing: 5px;
+  margin: 10px 0px;
+}
+.prof{
+  font-size: 12px;
+}
+
+.block__container1{
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  margin: 0px 20px;
+}
+.block__right_top{
+  display: flex;
+  gap: 50px;
+  align-items: start;
+  width: 369px;
+  height: 96px;
+  margin-bottom:30px;
+}
+.prof1{
+  display: flex;
+  align-items:center;
+  gap: 20px;
 }

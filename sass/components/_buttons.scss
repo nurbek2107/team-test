@@ -1,0 +1,71 @@
+
+.wrapper-main-card {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.btns {
+    width: 64px;
+    height: 18px;
+    margin-top: 24px;
+    padding: 0 8px;
+}
+
+button {
+    font-family: 'Poppins600';
+    font-size: 12px;
+    border-radius: 12px;
+    color: #6A983C;
+    background-color: #f4f8ec;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+    color: chartreuse;
+}
+
+.big-title {
+    font-family: 'Poppins600';
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 12px;
+}
+
+.Author {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.page {
+    font-family: 'Open Sans';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #151515;
+
+}
+
+.wrapper-imgs {
+    margin-top: 200px;
+}
+
+.titles {
+    font-family: 'Poppins500';
+    font-size: 15px;
+    line-height: 23px;
+    color: #151515;
+}
+
+.imgs {
+    width: 96px;
+    height: 96px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
