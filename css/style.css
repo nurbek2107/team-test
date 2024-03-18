@@ -1,5 +1,37 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("../static/fonts/transfonter.org-20240317-174835/Poppins-Medium.woff2") format("woff2"), url("../static/fonts/transfonter.org-20240317-174835/Poppins-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../static/fonts/transfonter.org-20240317-174835/Poppins-SemiBold.woff2") format("woff2"), url("../static/fonts/transfonter.org-20240317-174835/Poppins-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../static/fonts/transfonter.org-20240317-174835/Poppins-Regular.woff2") format("woff2"), url("../static/fonts/transfonter.org-20240317-174835/Poppins-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../static/fonts/transfonter.org-20240317-174835/Poppins-Bold.woff2") format("woff2"), url("../static/fonts/transfonter.org-20240317-174835/Poppins-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
 body {
-  color: white;
+  font-family: "Poppins";
+}
+
+.sidebar {
+  padding: 64px 45px;
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/
