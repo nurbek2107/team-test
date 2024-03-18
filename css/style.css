@@ -534,15 +534,15 @@ footer .footer_top .footer_top_right p {
   color: black;
 }
 
-.block__container {
+.block__containe {
   margin-top: 100px;
 }
 
-.container5 {
+.containe5 {
   position: relative;
 }
 
-.block__container1 {
+.block__containe1 {
   display: flex;
   align-items: start;
   justify-content: space-between;
@@ -651,7 +651,7 @@ footer .footer_top .footer_top_right p {
   font-size: 12px;
 }
 
-.block__container1 {
+.block__containe1 {
   display: flex;
   align-items: start;
   justify-content: space-between;
